@@ -3,3 +3,71 @@
   padding: 0;
   box-sizing: border-box;
 }
+
+body {
+  background-color: #aeaeae;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  margin-top: 100px;
+  padding: 2rem;
+  background: linear-gradient(120deg, #0871bb, #6afe34);
+  border-radius: 1rem;
+}
+
+.search {
+  height: 2rem;
+  width: 100%;
+  background-color: #fff;
+  border-radius: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search input {
+  width: 80%;
+}
+.search input,
+button {
+  border: none;
+}
+.search input:focus {
+  border: none;
+  outline: none;
+}
+.search button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.search button img {
+  height: 1rem;
+  border: none;
+}
+.weather-box {
+  text-align: center;
+  color: #fff;
+}
+
+.details {
+  margin-top: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+.col {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  text-align: left;
+  font-size: 1rem;
+}
+
+.col img {
+  height: 2rem;
+  margin-right: 10px;
+}
