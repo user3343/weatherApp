@@ -1,6 +1,7 @@
 * {
   margin: 0;
   padding: 0;
+  color: #fff;
   box-sizing: border-box;
 }
 
@@ -9,6 +10,11 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.error {
+  font-size: 0.8rem;
+  margin-top: 10px;
+  display: none;
 }
 .card {
   margin-top: 100px;
@@ -20,8 +26,7 @@ body {
 .search {
   height: 2rem;
   width: 100%;
-  background-color: #fff;
-  border-radius: 1rem;
+
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -29,10 +34,15 @@ body {
 
 .search input {
   width: 80%;
+  color: black;
 }
+
 .search input,
 button {
   border: none;
+  background-color: #fff;
+  border-radius: 1rem;
+  padding: 0.5rem;
 }
 .search input:focus {
   border: none;
@@ -50,6 +60,18 @@ button {
 .weather-box {
   text-align: center;
   color: #fff;
+  margin: 2rem;
+}
+.weather-img img {
+  height: 5rem;
+}
+.weather-box h1 {
+  font-size: 4rem;
+  font-weight: 540;
+}
+.weather-box h3 {
+  font-weight: 540;
+  font-size: 2rem;
 }
 
 .details {
@@ -70,4 +92,8 @@ button {
 .col img {
   height: 2rem;
   margin-right: 10px;
+}
+
+.weather {
+  display: none;
 }
